@@ -1,0 +1,115 @@
+body {
+  background-color: rgba(25, 129, 148);
+  color: white;
+  font-family: 'Sora', sans-serif;
+  margin: auto;
+  padding: 0;
+  width: 1300px;
+}
+
+footer {
+  color: white;
+  font-size: 13px;
+}
+
+header, footer, section {
+  padding: 15px;
+}
+
+#Title {
+  text-align: center;
+}
+
+#image {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+#img-div{
+    background-color: rgb(18, 197, 230);
+    color: white;
+}
+
+figcaption {
+  text-align: center;
+}
+
+h1 {
+  font-size: 37px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 21px;
+  font-weight: 800;
+}
+
+.title1, .title2, .title3 {
+  font-weight: 1000;
+}
+
+p {
+  font-size: 16px;
+}
+
+
+.discography_details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: start;
+  grid-template-areas:
+  "title_header details_header"
+  "title1 details1"
+  "title2 details2"
+  "title3 details3"
+}
+
+.title_header {
+  grid-area: title_header;
+  font-size: 20px;
+}
+
+.details_header {
+  grid-area: details_header;
+  font-size: 20px;
+}
+
+.title1 {
+  grid-area: title1;
+}
+
+.title2 {
+  grid-area: title2;
+}
+
+.title3 {
+  grid-area: title3;
+}
+
+.details1 {
+  grid-area: details1;
+}
+
+.details2 {
+  grid-area: details2;
+}
+
+.details3 {
+  grid-area: details3;
+}
+
+a {
+  color: rgb(18, 197, 230);
+  text-decoration:none;
+}
+
+a:hover {
+  color: white;
+}
